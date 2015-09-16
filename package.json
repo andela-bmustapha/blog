@@ -1,0 +1,63 @@
+{
+  "name": "andela-qa",
+  "version": "1.0.0",
+  "description": "Andela Question and Answer Forum",
+  "main": "index.js",
+  "engines": {
+    "node": "0.10.31",
+    "npm": "1.4.23"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "gulp test"
+  },
+  "author": "Andela",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "browserify": "^5.12.0",
+    "connect-livereload": "^0.4.0",
+    "gulp": "^3.9.0",
+    "gulp-bower": "0.0.10",
+    "gulp-concat": "^2.6.0",
+    "gulp-exit": "0.0.2",
+    "gulp-istanbul": "^0.10.0",
+    "gulp-jade": "^1.0.1",
+    "gulp-jshint": "^1.11.2",
+    "gulp-karma": "0.0.4",
+    "gulp-livereload": "^3.8.0",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-mocha": "^2.1.3",
+    "gulp-nodemon": "^2.0.3",
+    "gulp-protractor": "^1.0.0",
+    "gulp-shell": "^0.4.2",
+    "gulp-streamify": "0.0.5",
+    "gulp-stylus": "^2.0.5",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.3",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-coverage": "^0.4.2",
+    "karma-jasmine": "^0.3.6",
+    "karma-mocha": "^0.2.0",
+    "minifyify": "^4.4.0",
+    "mocha": "^2.2.5",
+    "pg": "4.x",
+    "protractor": "^2.1.0",
+    "request": "^2.58.0",
+    "selenium-server-standalone-jar": "^2.45.0",
+    "stringify": "^3.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.3.0",
+    "xtend": "^4.0.0"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "mongoose": "^4.1.0",
+    "morgan": "^1.6.1"
+  }
+}
