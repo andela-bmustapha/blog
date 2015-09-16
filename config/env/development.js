@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-  db: "mongodb://localhost/andela-qa"
+  db: "mongodb://localhost/my-blog"
 };
